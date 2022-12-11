@@ -10,7 +10,7 @@ Select element labeled "Status" with three options: <br />
 Student <br />
 Instructor <br />
 Guest <br />
-A <p> tag with the sentence "Choose your favorite programming language:" <br />
+A tag with the sentence "Choose your favorite programming language:" <br />
 A radio button with the label "HTML" <br />
 A radio button with the label "CSS" <br />
 A radio button with the label "JavaScript" <br />
