@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>what is your favorite programming language</title>
+    </head>
+    <body>
+        <h1>Hello, Forms</h1>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+                
+                <div>
+                    <label for="firstname">First name</label>
+                    <input type="text" id="firstname" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="Status">Status</label>
+                    <select id="Status" name="select_your_Status">
+                        <option value="Student">Student</option>
+                        <option value="Instructor">Instructor</option>
+                        <option value="Guest">Guest</option>
+                    </select>
+                </div>
+                
+                <p>
+                        Choose your favorite programming language:<br>
+                </p>
+
+                <div>
+                    <input type="radio" id="radio_button" name="radio_button"> 
+                    <label for="radio_button">HTML</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="radio_button" name="radio_button"> 
+                    <label for="radio_button">CSS</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="radio_button" name="radio_button">
+                    <label for="radio_button">JavaScript</label>
+                </div>               
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <label for="current_date">current date</label>
+                    <input type="date" id="current_date" name="current_date">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="check" name="checkbox">
+                    <label for="check">Sign up for newsletter</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="check" name="check">
+                    <label for="check">Agree to terms and conditions</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </body>
+
+</html>
